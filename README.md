@@ -1,12 +1,101 @@
-# React + Vite
+# ✈️ Planwise – Smart Trip Planner with AI, Budgeting, and Itinerary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Planwise is a sleek and intelligent trip planner app built with **React**, **TailwindCSS**, and **OpenAI** integration. It lets users effortlessly plan trips, track expenses, generate smart travel tips, view weather forecasts, and more.
 
-Currently, two official plugins are available:
+![Planwise Screenshot](https://your-screenshot-url-if-any.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🧠 **AI Travel Tips**: Get intelligent suggestions for packing, activities, and customs using OpenAI.
+* 🌦️ **5-Day Weather Forecast**: Live weather data powered by OpenWeather API.
+* 📍 **Place Recommendations**: Get nearby attractions using Google Places API.
+* 🗕️ **Daily Itinerary Planner**: Organize plans day by day between trip dates.
+* 💰 **Budget & Expenses**: Add a total budget and track all expenses easily.
+* 🏨 **Hotel Bookings**: Save hotel stays with cost, date, and booking links.
+* 🌐 **LocalStorage Sync**: Your trip data stays even after refresh.
+* 💡 **Clean Responsive UI**: Designed with TailwindCSS and Framer Motion.
+
+---
+
+## 🛠️ Built With
+
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Vite](https://vitejs.dev/)
+* [Framer Motion](https://www.framer.com/motion/)
+* [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+* [OpenAI API](https://platform.openai.com/)
+* [OpenWeatherMap API](https://openweathermap.org/)
+
+---
+
+## 📆 Installation
+
+```bash
+git clone https://github.com/SanidhyaAulakh/planwise-trip-planner.git
+cd planwise-trip-planner
+npm install
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root:
+
+```
+VITE_OPENAI_API_KEY=your_openai_api_key
+VITE_GOOGLE_API_KEY=your_google_api_key
+VITE_WEATHER_API_KEY=your_openweather_api_key
+```
+
+---
+
+## 💻 Run Locally
+
+```bash
+npm run dev
+```
+
+App will run at: `http://localhost:5173`
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots or a short demo video here to showcase features.*
+
+---
+
+## 📚 Roadmap / Ideas
+
+* 📍 Google Maps Route Integration
+* 🛫 Flights & Transport booking
+* 🧳 Export trip as PDF
+* 📱 PWA support for offline mode
+* 🔐 Auth + cloud sync (Firebase)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 📝 License
+
+[MIT](LICENSE)
+
+---
+
+## 🤛 Author
+
+**Sanidhya Aulakh**
+[GitHub](https://github.com/SanidhyaAulakh) • [Portfolio](https://your-portfolio-link-if-any.com)
+
+---
+
+> Built with ❤️ for travel lovers and productivity nerds.
