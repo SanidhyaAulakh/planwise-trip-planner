@@ -1,0 +1,32 @@
+{
+  "name": "react-tailwind-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/orbitron": "^5.2.6",
+    "@react-google-maps/api": "^2.20.7",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^11.10.0",
+    "framer-motion": "^12.23.6",
+    "lucide-react": "^0.525.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3",
+    "use-places-autocomplete": "^4.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.9",
+    "vite-plugin-pwa": "^1.0.1"
+  }
+}
